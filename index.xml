@@ -1,11 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Garrett Hyde on Garrett Hyde</title>
+    <title>Garrett Hyde</title>
     <link>/</link>
-    <description>Recent content in Garrett Hyde on Garrett Hyde</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Garrett Hyde</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Garrett Hyde</title>
+      <link>/</link>
+    </image>
     
   </channel>
 </rss>
