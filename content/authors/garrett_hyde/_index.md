@@ -74,5 +74,3 @@ user_groups = []
 #   icon_pack = "ai"
 #   link = "files/cv.pdf"
 +++
-
-Garrett Hyde
