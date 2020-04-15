@@ -2,15 +2,15 @@
 
 # Always execute these commands before exiting
 function finished {
-  git checkout source
+  git checkout master
 }
 trap finished EXIT
 
-# Check if currently on source branch. This is to ensure the source branch and
-# the master branch are in sync.
+# Check if currently on master branch. This is to ensure the master branch and
+# the gh-pages branch are in sync.
 CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
-if [ "${CURRENT_BRANCH}" != "source" ]; then
-  echo 'You must checkout the "source" branch in order to build!'
+if [ "${CURRENT_BRANCH}" != "master" ]; then
+  echo 'You must checkout the "master" branch in order to build!'
   exit 1
 fi
 
@@ -33,11 +33,11 @@ TEMP_DIR=$(mktemp -d /tmp/output-XXXXX)
 hugo -d "${TEMP_DIR}"
 
 # Replace old HTML files with new ones
-git checkout master
+git checkout gh-pages
 ls -I public -I resources -I themes | xargs rm -fr
 mv -f ${TEMP_DIR}/* ./
 
-# Commit new HTML files to master branch
+# Commit new HTML files to gh-pages branch
 git add .
 git commit -m "Add compiled HTML from commit ${CURRENT_COMMIT}"
 
