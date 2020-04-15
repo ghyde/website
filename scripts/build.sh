@@ -34,7 +34,7 @@ hugo -d "${TEMP_DIR}"
 
 # Replace old HTML files with new ones
 git checkout gh-pages
-ls -I public -I resources -I themes | xargs rm -fr
+ls -I public -I resources -I themes -I CNAME | xargs rm -fr
 mv -f ${TEMP_DIR}/* ./
 
 # Commit new HTML files to gh-pages branch
