@@ -1,30 +1,37 @@
-+++
-# Accomplishments widget.
-widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+---
+# An instance of the Accomplishments widget.
+# Documentation: https://sourcethemes.com/academic/docs/page-builder/
+widget: accomplishments
 
-title = "Certifications"
-subtitle = ""
+# This file represents a page section.
+headless: true
+
+# Activate this widget? true/false
+active: false
+
+# Order that this section appears on the page.
+weight: 50
+
+# Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+title: 'Accomplish&shy;ments'
+subtitle:
 
 # Date format
-#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "Jan 2006"
+#   Refer to https://wowchemy.com/docs/customization/#date-format
+date_format: Jan 2006
 
 # Accomplishments.
-#   Add/remove as many `[[item]]` blocks below as you like.
-#   `title`, `organization` and `date_start` are the required parameters.
+#   Add/remove as many `item` blocks below as you like.
+#   `title`, `organization`, and `date_start` are the required parameters.
 #   Leave other parameters empty if not required.
-#   Begin/end multi-line descriptions with 3 quotes `"""`.
-
-[[item]]
-  organization = ""
-  organization_url = ""
-  title = ""
-  url = ""
-  certificate_url = ""
-  date_start = "2019-01-01"
-  date_end = ""
-  description = ""
-+++
+#   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+item:
+- certificate_url: ""
+  date_end: ""
+  date_start: "2019-01-01"
+  description: ""
+  organization: ""
+  organization_url: ""
+  title: ""
+  url: ""
+---

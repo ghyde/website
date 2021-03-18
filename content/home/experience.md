@@ -1,30 +1,38 @@
-+++
-# Experience widget.
-widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 50  # Order that this section will appear.
+---
+# An instance of the Experience widget.
+# Documentation: https://wowchemy.com/docs/page-builder/
+widget: experience
 
-title = "Experience"
-subtitle = ""
+# This file represents a page section.
+headless: true
+
+# Activate this widget? true/false
+active: false
+
+# Order that this section appears on the page.
+weight: 40
+
+title: Experience
+subtitle:
 
 # Date format for experience
-#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "Jan 2006"
+#   Refer to https://wowchemy.com/docs/customization/#date-format
+date_format: Jan 2006
 
 # Experiences.
-#   Add/remove as many `[[experience]]` blocks below as you like.
+#   Add/remove as many `experience` items below as you like.
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
-#   Begin/end multi-line descriptions with 3 quotes `"""`.
-[[experience]]
-  title = ""
-  company = ""
-  company_url = ""
-  location = "Utah"
-  date_start = "2019-01-01"
-  date_end = ""
-  description = """
-  * Foo
-  """
-+++
+#   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+experience: []
+  # - title: ''
+  #   company: ''
+  #   company_url: ''
+  #   location: Utah
+  #   date_start: '2019-01-01'
+  #   date_end: ''
+  #   description: |2-
+  #       Responsibilities include:
+
+  #       * Doing stuff
+---
