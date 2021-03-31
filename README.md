@@ -21,7 +21,7 @@ HTML to the `gh-pages` branch.
 ### Customize Favicon
 
 1. Go to [favicon.io][favicon] and download the favicon.
-2. Copy the 512x512 pixel image to `assets/images/icon.png`
+2. Copy the 512x512 pixel image to `assets/media/icon.png`
    ([reference][academic-docs]).
 
 [academic-docs]: https://wowchemy.com/docs/getting-started/customization/#website-icon
