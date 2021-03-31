@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Garrett Hyde</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/garrett_hyde/</link>
+      <atom:link href="/authors/garrett_hyde/index.xml" rel="self" type="application/rss+xml" />
     <description>Garrett Hyde</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Garrett Hyde</copyright>
     <image>
-      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <url>/authors/garrett_hyde/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Garrett Hyde</title>
-      <link>/</link>
+      <link>/authors/garrett_hyde/</link>
     </image>
     
   </channel>
