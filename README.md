@@ -1,6 +1,6 @@
 # GarrettHyde.com
 
-[![Build Status](https://travis-ci.org/ghyde/website.svg?branch=master)](https://travis-ci.org/ghyde/website)
+[![Build Status](https://travis-ci.com/ghyde/website.svg?branch=master)](https://travis-ci.com/ghyde/website)
 
 My personal website.
 
@@ -24,7 +24,7 @@ HTML to the `gh-pages` branch.
 2. Copy the 512x512 pixel image to `assets/images/icon.png`
    ([reference][academic-docs]).
 
-[academic-docs]: https://sourcethemes.com/academic/docs/customization/#website-icon
+[academic-docs]: https://wowchemy.com/docs/getting-started/customization/#website-icon
 [favicon]: https://favicon.io/favicon-generator/?t=H&ff=Leckerli+One&fs=110&fc=%23FFF&b=rounded&bc=%232962FF
 [gh-pages]: https://pages.github.com/
 [hugo]: https://gohugo.io/
