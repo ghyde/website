@@ -9,7 +9,7 @@ addons:
     - wget
 
 env:
-  HUGO_PACKAGE: https://github.com/gohugoio/hugo/releases/download/v0.82.0/hugo_extended_0.82.0_Linux-64bit.deb
+  HUGO_PACKAGE: https://github.com/gohugoio/hugo/releases/download/v0.82.1/hugo_extended_0.82.1_Linux-64bit.deb
 
 install:
   # Install Hugo
