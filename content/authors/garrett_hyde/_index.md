@@ -6,7 +6,7 @@ title: Garrett Hyde
 superuser: true
 
 # Role/position/tagline
-role: Cloud Infrastructure Architect
+role: Sr. Architect - Cloud Infrastructure
 
 # Organizations/Affiliations to show in About widget
 organizations:
