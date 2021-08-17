@@ -15,17 +15,32 @@ My personal website.
 
 ### CI/CD
 
-[Travis CI][travis-ci] is used to compile the website and push the generated
-HTML to the `gh-pages` branch.
+[GitHub Actions][gh-actions] are used to compile this website and push the
+generated HTML to the `gh-pages` branch.
+
+The [Hugo Setup Action][gh-actions-hugo] is used to install Hugo. The
+[GitHub Pages Action][gh-actions-gh-pages] is used to deploy the static files to
+GitHub Pages.
 
 ### Customize Favicon
 
 1. Go to [favicon.io][favicon] and download the favicon.
+
+   | Parameter        | Value        |
+   | ---------------- | ------------ |
+   | Text             | H            |
+   | Background       | Rounded      |
+   | Font Family      | Leckerli One |
+   | Font Size        | 110          |
+   | Font Color       | #FFF         |
+   | Background Color | #2962FF      |
 2. Copy the 512x512 pixel image to `assets/media/icon.png`
    ([reference][academic-docs]).
 
 [academic-docs]: https://wowchemy.com/docs/getting-started/customization/#website-icon
 [favicon]: https://favicon.io/favicon-generator/?t=H&ff=Leckerli+One&fs=110&fc=%23FFF&b=rounded&bc=%232962FF
 [gh-pages]: https://pages.github.com/
+[gh-actions]: https://github.com/features/actions
+[gh-actions-hugo]: https://github.com/peaceiris/actions-hugo
+[gh-actions-gh-pages]: https://github.com/peaceiris/actions-gh-pages
 [hugo]: https://gohugo.io/
-[travis-ci]: https://travis-ci.org/
