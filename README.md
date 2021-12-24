@@ -1,6 +1,6 @@
 # GarrettHyde.com
 
-[![Build Status](https://travis-ci.com/ghyde/website.svg?branch=master)](https://travis-ci.com/ghyde/website)
+[![Build Status][build-status-badge]][build-status]
 
 My personal website.
 
@@ -38,6 +38,8 @@ GitHub Pages.
    ([reference][academic-docs]).
 
 [academic-docs]: https://wowchemy.com/docs/getting-started/customization/#website-icon
+[build-status]: https://github.com/ghyde/website/actions/workflows/gh-pages.yml
+[build-status-badge]: https://github.com/ghyde/website/actions/workflows/gh-pages.yml/badge.svg
 [favicon]: https://favicon.io/favicon-generator/?t=H&ff=Leckerli+One&fs=110&fc=%23FFF&b=rounded&bc=%232962FF
 [gh-pages]: https://pages.github.com/
 [gh-actions]: https://github.com/features/actions
