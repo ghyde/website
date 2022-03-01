@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-hugo --i18n-warnings server --buildDrafts
+hugo --printI18nWarnings server --buildDrafts
