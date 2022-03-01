@@ -6,14 +6,16 @@ title: Garrett Hyde
 superuser: true
 
 # Role/position/tagline
-role: Sr. Architect - Cloud Infrastructure
+role: Sr. Security Automation Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Red Hat
-  url: https://www.redhat.com/
+- name: Rakuten Americas
+  url: https://rakuten.us/
 - name: Utah National Guard
   url: https://nationalguard.com/
+- name: Utah Valley University
+  url: https://www.uvu.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: I currently work in cloud infrastructure and cyber security.
