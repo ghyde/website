@@ -35,9 +35,9 @@ GitHub Pages.
    | Font Color       | #FFF         |
    | Background Color | #2962FF      |
 2. Copy the 512x512 pixel image to `assets/media/icon.png`
-   ([reference][academic-docs]).
+   ([reference][hugo-blox-docs]).
 
-[academic-docs]: https://wowchemy.com/docs/getting-started/customization/#website-icon
+[hugo-blox-docs]: https://docs.hugoblox.com/getting-started/customize/#website-icon
 [build-status]: https://github.com/ghyde/website/actions/workflows/gh-pages.yml
 [build-status-badge]: https://github.com/ghyde/website/actions/workflows/gh-pages.yml/badge.svg
 [favicon]: https://favicon.io/favicon-generator/?t=H&ff=Leckerli+One&fs=110&fc=%23FFF&b=rounded&bc=%232962FF
