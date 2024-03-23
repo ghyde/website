@@ -30,6 +30,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
+  - course: MBA in IT Management
+    institution: Western Governors University
+    year: 2024
   - course: BSc in Computer Science
     institution: Brigham Young University
     year: 2011
@@ -65,3 +68,7 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
+
+Garrett Hyde is a Cyber Security Professional and Linux Administrator. He has
+extensive experience with Python programming, Linux containers and Kubernetes,
+and IT automation. He is also fluent in Japanese.
