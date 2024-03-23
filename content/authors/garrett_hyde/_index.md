@@ -10,8 +10,8 @@ role: Sr. Security Automation Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Rakuten Americas
-  url: https://rakuten.us/
+- name: Rakuten International
+  url: https://rakuteninternational.com/
 - name: Utah National Guard
   url: https://nationalguard.com/
 - name: Utah Valley University
